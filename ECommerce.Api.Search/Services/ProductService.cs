@@ -12,6 +12,7 @@ namespace ECommerce.Api.Search.Services
 {
     public class ProductsService : IProductsService
     {
+        /*
         private readonly IHttpClientFactory httpClientFactory;
         private readonly ILogger<ProductsService> logger;
         public ProductsService(IHttpClientFactory httpClientFactory, ILogger<ProductsService> logger)
@@ -45,5 +46,6 @@ namespace ECommerce.Api.Search.Services
                 return (false, null, ex.Message);
             }
         }
+        */
     }
 }

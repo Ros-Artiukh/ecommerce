@@ -8,6 +8,7 @@ namespace ECommerce.Api.Search.Services
 {
     public class SearchService : ISearchService
     {
+        /*
         //private readonly IOrdersService ordersService;
         //private readonly IProductsService productsService;
         //private readonly ICustomersService customersService;
@@ -40,8 +41,9 @@ namespace ECommerce.Api.Search.Services
 
                 return (true, result);
             }
-            */
+            
             return (false, null);
         }
+    */
     }
 }

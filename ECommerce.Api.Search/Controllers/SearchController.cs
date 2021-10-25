@@ -12,7 +12,7 @@ namespace ECommerce.Api.Search.Controllers
     [Route("api/search")]
     public class SearchController : ControllerBase
     {
-        private readonly ISearchService searchService;
+       /* private readonly ISearchService searchService;
         public SearchController(ISearchService searchService)
         {
             this.searchService = searchService;
@@ -27,5 +27,6 @@ namespace ECommerce.Api.Search.Controllers
             }
             return NotFound();
         }
+       */
     }
 }
