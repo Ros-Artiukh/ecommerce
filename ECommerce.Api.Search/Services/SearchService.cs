@@ -8,18 +8,18 @@ namespace ECommerce.Api.Search.Services
 {
     public class SearchService : ISearchService
     {
-        private readonly IOrdersService ordersService;
-        private readonly IProductsService productsService;
-        private readonly ICustomersService customersService;
-        public SearchService(IOrdersService ordersService, IProductsService productsService, ICustomersService customersService)
+        //private readonly IOrdersService ordersService;
+        //private readonly IProductsService productsService;
+        //private readonly ICustomersService customersService;
+        public SearchService()
         {
-            this.ordersService = ordersService;
-            this.productsService = productsService;
-            this.customersService = customersService;
+            //this.ordersService = ordersService;
+            //this.productsService = productsService;
+            //this.customersService = customersService;
         }
         public async Task<(bool IsSuccess, dynamic SearchResults)> SearchAsync(int customerId)
         {
-            var customersResult = await customersService.GetCustomerAsync(customerId);
+            /*var customersResult = await customersService.GetCustomerAsync(customerId);
             var ordersResult = await ordersService.GetOrdersAsync(customerId);
             var productsResult = await productsService.GetProductsAsync();
             if (ordersResult.IsSuccess)
@@ -40,6 +40,7 @@ namespace ECommerce.Api.Search.Services
 
                 return (true, result);
             }
+            */
             return (false, null);
         }
     }
