@@ -1,4 +1,4 @@
-using AutoMapper;
+/*using AutoMapper;
 using ECommerce.Api.Products.Db;
 using ECommerce.Api.Products.Profiles;
 using ECommerce.Api.Products.Providers;
@@ -48,3 +48,4 @@ namespace ECommerce.Api.Products.Tests
     }
 }
 
+*/
