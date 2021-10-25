@@ -11,7 +11,7 @@ namespace ECommerce.Api.Orders
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }
